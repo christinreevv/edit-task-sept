@@ -1,0 +1,74 @@
+@import '__variables';
+
+
+.color-block {
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.bg-red {
+  background-color: $red;
+  color: $white;
+}
+
+.bg-light-red {
+    background-color: $light-red;
+    color: $white;
+}
+
+.bg-dark-red {
+    background-color: $dark-red;
+    color: $white;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+  
+}
+
+h1, h2, h3, h4, h5, p, a, li, label {
+      color: $dark-red;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    transition: 0.4s;
+    color: $red;
+}
+
+.f100{
+    font-weight: $f1;
+}
+
+.f600{
+    font-weight: $f6;
+}
+
+
+.f800{
+    font-weight: $f8;
+}
+
+#drop {
+    background-color: $light-red;
+    color: $white;
+}
+
+#button-main, #button-main-h{
+    background-color: $red;
+    color: $white;
+}
+
+#button-main-h:hover {
+background-color: transparent;
+border-color: $red;
+color: $red;
+}
+
+path {
+    color: $red;
+}

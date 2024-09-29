@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script defer src="js/fontawesome-all.min.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand" href="#">Small Business | Style Guide</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./team.html">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item"></li>
+                    <a class="nav-link" href="./style-guide.html">Style Guide</a>
+                    </li>
+                </ul>
+                <div class="d-flex ms-auto">
+                    <div class="dropdown">
+                        <div class="justify-content-end">
+                            <button id="drop" class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Change language
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#"></a></li>
+                                <li><a class="dropdown-item" href="#"></a></li>
+                                <li><a class="dropdown-item" href="#">*</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- История -->
+
+    <div class="container">
+
+        <div class="row mt-5">
+            <h1 class="display-5 p-0">Colors</h1>
+            <div class="color-block bg-red col-lg-3 col-md-12 col-sm-12">
+                <h5 class="color-name text-light">Red</h5>
+                <p class="color-code text-light">Color: #FF3737;</p>
+            </div>
+            <div class="color-block bg-dark-red col-lg-3 col-md-12 col-sm-12 mx-lg-auto">
+                <h5 class="color-name text-light">Dark Red</h5>
+                <p class="color-code text-light">Color: #FF3737;</p>
+            </div>
+            <div class="color-block bg-light-red col-lg-3 col-md-12 col-sm-12">
+                <h5 class="color-name text-light">Light Red</h5>
+                <p class="color-code text-light">Color: #FF3737;</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-3">
+                <h1 class="display-5 p-0">Icons</h1>
+                <div class="col-8" id="icons">
+                    <div class="card-body text-start">
+                        <i class="fab fa-facebook text-primary"></i> Facebook</a></li><br>
+                        <i class="fab fa-instagram text-primary"></i> Instagram</a></li><br>
+                        <i class="fab fa-twitter text-primary"></i> Twitter</a></li><br>
+                        <i class="fab fa-youtube text-primary"></i> YouTube</a></li><br>
+                        <i class="fab fa-linkedin text-primary"></i> Linkedin</a></li><br>
+                        <i class="fas fa-phone"></i> Phone<br>
+                        <i class="fas fa-envelope"></i> Message<br>
+                        <i class="fas fa-user"></i> Profile
+                    </div>
+                </div>
+            </div>
+            <div class="col-7">
+                <h1 class="display-5 p-0">Font</h1>
+                <span>Montserrat, 100</span>
+                <p class="f100">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span>Montserrat, 600</span>
+                <p class="f600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span>Montserrat, 800</span>
+                <p class="f800 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            </div>
+            <div class="col-2">
+                <h1 class="display-5 p-0">Buttons</h1>
+                <button id="drop" class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Change language
+                </button>
+                <button id="button-main" type="button" class="btn mt-4 col-lg-12 col-md-12 col-sm-12">Read more</button>
+                <button id="button-main-h" type="button" class="btn col-lg-12 col-md-12 col-sm-12 mt-4">Contact
+                    us</button>
+            </div>
+        </div>
+        <h1 class="display-5 p-0 mt-5">Forms</h1>
+        <for789m class="row g-3">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <label for="validationDefault01" class="form-label">Name:</label>
+                <div class="input-group">
+                    <span class="input-group-text" id="inputGroupPrepend2"><i class="fas fa-user"></i></span>
+                    <input type="text" class="form-control" id="validationDefaultUsername"
+                        aria-describedby="inputGroupPrepend2" placeholder="Иван">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <label for="validationDefault01" class="form-label">Email:</label>
+                <div class="input-group">
+                    <span class="input-group-text" id="inputGroupPrepend2"><i class="fas fa-envelope"></i></span>
+                    <input type="text" class="form-control" id="validationDefaultUsername"
+                        aria-describedby="inputGroupPrepend2" placeholder="example@email.com">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <label for="validationDefault01" class="form-label">Telephone:</label>
+                <div class="input-group">
+                    <span class="input-group-text" id="inputGroupPrepend2"><i class="fas fa-phone"></i> </span>
+                    <input type="text" class="form-control" id="validationDefaultUsername"
+                        aria-describedby="inputGroupPrepend2" placeholder="0123456789">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <label for="validationDefault04" class="form-label">Department:</label>
+
+                <div class="input-group">
+                    <span class="input-group-text" id="inputGroupPrepend2"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
+                            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z" />
+                        </svg></span>
+                    <select class="form-select" id="validationDefault04" required>
+                        <option class="text text-muted" selected disabled value="">- select here -</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <p>Please select the recipient og ypur message.</p>
+            </div>
+            <div class="mb-5">
+                <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
+                <div class="input-group">
+                    <span class="input-group-text" id="inputGroupPrepend2"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-brush-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.1 6.1 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.1 8.1 0 0 1-3.078.132 4 4 0 0 1-.562-.135 1.4 1.4 0 0 1-.466-.247.7.7 0 0 1-.204-.288.62.62 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896q.19.012.348.048c.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04" />
+                        </svg></span>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="9"
+                        placeholder="Write your message here..."></textarea>
+                </div>
+            </div>
+
+
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
